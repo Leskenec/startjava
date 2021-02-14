@@ -1,20 +1,20 @@
-public class Variable{
+public class Variable {
     public static void main(String[] args) {
-        byte b = 100;
-        System.out.println(b);
-        short s = 12000;
-        System.out.println(s);
-        int i = 4343456;
-        System.out.println(i);
-        long l = 345345345;
-        System.out.println(l);
-        float f = 3.233f;
-        System.out.println(f);
-        double d = 3.1234445d;
-        System.out.println(d);
-        char c = 'W';
-        System.out.println(c);
-        boolean k = false;
-        System.out.println(k);
+        byte cores = 2;
+        System.out.println(cores);
+        short nameProcessor = 2350;
+        System.out.println(nameProcessor);
+        int cache = 3;
+        System.out.println(cache);
+        long memoryByte = 24910168;
+        System.out.println(memoryByte);
+        float frequency = 2.3f;
+        System.out.println(frequency);
+        double exactFrequency = 2.323404475d;
+        System.out.println(exactFrequency);
+        char batton = 'W';
+        System.out.println(batton);
+        boolean workToday = true;
+        System.out.println(workToday);
     }
 }
