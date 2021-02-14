@@ -10,7 +10,7 @@ public class Variable {
         System.out.println(memoryByte);
         float frequency = 2.3f;
         System.out.println(frequency);
-        double exactFrequency = 2.323404475d;
+        double exactFrequency = 2.32340475d;
         System.out.println(exactFrequency);
         char batton = 'W';
         System.out.println(batton);
