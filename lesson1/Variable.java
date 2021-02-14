@@ -14,7 +14,7 @@ public class Variable {
         System.out.println(exactFrequency);
         char batton = 'W';
         System.out.println(batton);
-        boolean workToday = true;
+        boolean isWorkToday = true;
         System.out.println(workToday);
     }
 }
