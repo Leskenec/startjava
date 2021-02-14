@@ -15,6 +15,6 @@ public class Variable {
         char batton = 'W';
         System.out.println(batton);
         boolean isWorkToday = true;
-        System.out.println(workToday);
+        System.out.println(isWorkToday);
     }
 }
