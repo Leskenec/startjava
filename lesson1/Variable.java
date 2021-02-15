@@ -2,8 +2,8 @@ public class Variable {
     public static void main(String[] args) {
         byte cores = 2;
         System.out.println(cores);
-        short nameProcessor = 2350;
-        System.out.println(nameProcessor);
+        short nameCpu = 2350;
+        System.out.println(nameCpu);
         int cache = 3;
         System.out.println(cache);
         long memoryByte = 24910168;
@@ -12,8 +12,8 @@ public class Variable {
         System.out.println(frequency);
         double exactFrequency = 2.32340475d;
         System.out.println(exactFrequency);
-        char batton = 'W';
-        System.out.println(batton);
+        char button = 'W';
+        System.out.println(button);
         boolean isWorkToday = true;
         System.out.println(isWorkToday);
     }
