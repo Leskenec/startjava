@@ -5,19 +5,18 @@ public class Cycle {
         } 
         System.out.println("");
         int i = 6;
-        while(i >= -6){
+        while(i >= -6) {
             System.out.println(i);
-         i-=2;
+            i-=2;
         } 
         System.out.println("");
         int a = 10;  // переменная i уже использовалась
         int sum = 0;
         do {
-         if(a % 2==1) 
-          sum+=a; // sum = sum +a;
-          a++;
-        } while 
-        (a<=20);
+            if(a % 2==1) 
+                sum+=a; // sum = sum +a;
+                a++;
+        } while (a <= 20);
         System.out.println(sum);
     }
 }
