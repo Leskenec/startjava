@@ -6,12 +6,12 @@ public class ConditionalStatement {
         } 
             System.out.println("");
         boolean isMale = true;
-        if(isMale == true) {
+        if(isMale) {
             System.out.println("It`s male");
         }
             System.out.println("");
         boolean isWoman = true;
-        if(isWoman == !false) {
+        if(isWoman) {
             System.out.println("This person is woman");
         }
             System.out.println("");
