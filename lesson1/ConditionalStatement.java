@@ -9,7 +9,8 @@ public class ConditionalStatement {
         if(isMale) {
             System.out.println("It`s male");
         }
-            System.out.println("");
+        
+        System.out.println("");
         if(!isMale) {
             System.out.println("This person is woman");
         }
