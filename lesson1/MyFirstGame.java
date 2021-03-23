@@ -4,15 +4,15 @@ public class MyFirstGame {
         int playerNumber = 20;
 
         do {
-        if(playerNumber > compNumber) {
-            System.out.println("Введенное вами число больше того, что загадал компьютер!! ");
-            playerNumber--;
-        } else if(playerNumber < compNumber); {
-            System.out.println("Введенное вами число меньше того, что загадал компьютер!! ");
-            playerNumber++;
-        }
-        } while(playerNumber == compNumber);
-            System.out.println("Вы угадали");
+            if(playerNumber > compNumber) {
+                System.out.println("Введенное вами число больше того, что загадал компьютер!! ");
+                playerNumber--;
+            } else if(playerNumber < compNumber); {
+                System.out.println("Введенное вами число меньше того, что загадал компьютер!! ");
+                playerNumber++;
+            }
+        } while(playerNumber != compNumber);
+        System.out.println("Вы угадали");
     }
 }  
 
