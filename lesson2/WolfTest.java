@@ -1,15 +1,15 @@
 public class WolfTest {
     public static void main(String[] args) {
-        Wolf createObject = new Wolf();
+        Wolf wild = new Wolf();
 
-        createObject.gender = "male";
-        createObject.nickname = "wild";
-        createObject.age = 5;
-        createObject.weight = 23;
-        createObject.color = "grey";
-        System.out.println(createObject.age);
-        System.out.println(createObject.gender);
-        System.out.println(createObject.nickname);
-        System.out.println(createObject.howl());
+        wild.gender = "male";
+        wild.nickname = "wild";
+        wild.age = 5;
+        wild.weight = 23;
+        wild.color = "grey";
+        System.out.println(wild.age);
+        System.out.println(wild.gender);
+        System.out.println(wild.nickname);
+        System.out.println(wild.howl());
     }
 }
